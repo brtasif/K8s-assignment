@@ -36,4 +36,4 @@ Instruction on using EC2 instance to run docker containers
 - Goto to K8s dirctory where the manifest file are stored
 - Run the manifest file one bye in proper oder to deploy MSQL and Webserver
 
-
+-

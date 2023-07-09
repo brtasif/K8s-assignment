@@ -11,7 +11,7 @@ DBHOST = os.environ.get("DBHOST") or "localhost"
 DBUSER = os.environ.get("DBUSER") or "root"
 DBPWD = os.environ.get("DBPWD") or "passwors"
 DATABASE = os.environ.get("DATABASE") or "employees"
-COLOR_FROM_ENV = "pink"
+COLOR_FROM_ENV = "blue"
 DBPORT = os.environ.get("DBPORT")
 if DBPORT is not None:
     try:

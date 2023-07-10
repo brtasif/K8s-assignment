@@ -3,19 +3,16 @@ kind: ReplicaSet
 metadata:
   name: webserver
   labels:
-    app.kubernetes.io/name: webserver
-    app.kubernetes.io/component: frontend
+    app: employees
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app.kubernetes.io/name: webserver
-      app.kubernetes.io/component: frontend
+      app: employees
   template:
     metadata:
       labels:
-        app.kubernetes.io/name: webserver
-        app.kubernetes.io/component: frontend
+        app: employees
     spec:
       containers:
       - name: webserver
